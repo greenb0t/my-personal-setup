@@ -21,6 +21,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
@@ -82,3 +83,6 @@ call togglebg#map("<F5>")
 
 " hide .pyc files
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+" System clipboard
+set clipboard=unnamed
